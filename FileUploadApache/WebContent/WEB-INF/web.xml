@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+  <display-name>Welcome to upload file</display-name>
+  <description>Welcome to upload file</description>	
+  
+  <servlet>
+  	<servlet-name>hello</servlet-name>
+  	<servlet-class>servlet.Upload</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>hello</servlet-name>
+  	<url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
